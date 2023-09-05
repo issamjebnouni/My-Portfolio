@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 from pathlib import Path
 from utils import social_icons
-from streamlit_extras.stylable_container import stylable_container
 
 st.set_page_config(page_title="My Portfolio", 
                    page_icon=":rocket:", 
