@@ -15,6 +15,22 @@ with open(css_file) as f:
 
 faceid = Image.open("assets/faceid.jpg")
 sl = Image.open("assets/sign-language.jpg")
+foot = Image.open("assets/foot.jpg")
+
+with st.container():
+    text_column, image_column = st.columns((3,1))
+    with text_column:
+        st.subheader("YOLOv8 Object Detection for Football", divider="blue")
+        st.write("*Self-initiated project*")
+        st.markdown("""
+            - ► Imported from roboflow a custom dataset containing 1,327 images annotated with four distinct classes: player, ball, referee, and goalkeeper.
+            - ► Trained a YOLOv8 object detection pretrained model on this custom dataset achieving 0.86 mAP50 on the validation set.
+        """)
+        mention(label="Github Repo", icon="github", url="https://github.com/issamjebnouni/YOLOv8-Object-Detection-for-Football")
+
+    with image_column:
+        st.image(foot)
+
 with st.container():
     text_column, image_column = st.columns((3,1))
     with text_column:

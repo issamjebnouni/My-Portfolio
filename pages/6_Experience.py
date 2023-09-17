@@ -23,8 +23,10 @@ with st.container():
         st.subheader("Computer Vision Intern @ [DataDoIt](https://data-doit.com/)")
         st.write("*Jul 2023 - Aug 2023*")
         st.markdown("""
-        - ► Developed a flask application.
-        - ► Utilised Nvidia TAO Toolkit and experimented on different models for object detection.
-        
-        `Python` `Orange Pi` `Flask` `NVIDIA TAO` `YOLO`
+        - ► Developed a Flask-based web interface for scanning and displaying local network RTSP camera streams.
+        - ► Explored the NVIDIA TAO toolkit 4.0 then trained and benchmarked various object detection models from its vast model zoo, achieving 0.90 mAP for the best model which was YOLOv4.
+        - ► Explored methods for enhancing model precision with limited real data, settling on training on mixed data (real + synthetic) and validating on real data only.
+        - ► Achieved a 0.96 mAP50 on the validation set using the YOLOv8 model with mixed data and generated a TensorRT engine to optimize the model for inference.
+                    
+        `Python` `Linux` `Flask` `NVIDIA TAO` `YOLOv8`
         """)

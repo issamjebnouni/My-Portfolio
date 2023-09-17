@@ -24,4 +24,4 @@ with st.container():
         st.write("### Bachelor Degree, [_INSAT_](https://insat.rnu.tn) (2019-2024)")
         st.write("##### Major: Computer Science")
         st.write("##### Minor: Image and Video Processing")
-        st.write("**Relevant Coursework:** Linear Algebra, Algorithms and Data Structures, Machine learning, Deep Learning, Big Data, Business Intelligence, Image Processing, Video Processing...")
+        st.write("**Relevant Coursework:** Linear Algebra, Algorithms and Data Structures, Machine learning, Deep Learning, Big Data, Business Intelligence, Image Processing, Video Processing, Linux...")

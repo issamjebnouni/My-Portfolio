@@ -12,7 +12,7 @@ with open(css_file) as f:
 st.header("Hard Skills", divider="red")
 
 def txt3(a, b):
-  col1, col2 = st.columns([1,4])
+  col1, col2 = st.columns([2,4])
   with col1:
     st.markdown(f'<p style="font-size: 20px;">{a}</p>', unsafe_allow_html=True)
   with col2:
@@ -21,6 +21,7 @@ def txt3(a, b):
 
 st.markdown(f'<p style="font-size: 20px;">Image Processing, Machine Learning, Deep Learning, Computer Vision</p>', unsafe_allow_html=True)
 
+txt3("Operating Systems","`Linux`")
 txt3("Programming languages","`Python`")
 txt3("Libraries & Frameworks","`Tensorflow`, `Keras`, `streamlit`, `Flask`, `OpenCV`, `Pandas`, `Numpy`, `Matplotlib`, `Seaborn`, `Scikit-learn`, `Pillow`")
-txt3("Tools","`Nvidia TAO`, `mediapipe`, `YOLO`")
+txt3("Tools","`Nvidia TAO`, `mediapipe`, `YOLOv8`")
