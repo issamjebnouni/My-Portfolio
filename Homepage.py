@@ -8,7 +8,7 @@ st.set_page_config(page_title="My Portfolio",
                    layout="wide")
 
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-resume_file = current_dir / "assets" / "resume.pdf"
+resume_file = current_dir / "assets" / "Issam_Jebnouni_Resume.pdf"
 css_file = current_dir / "styles" / "homepage.css"
 
 with open(css_file) as f:
