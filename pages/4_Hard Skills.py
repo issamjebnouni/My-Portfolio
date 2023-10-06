@@ -19,7 +19,7 @@ def txt3(a, b):
     b_no_commas = b.replace(',', '')
     st.markdown(b_no_commas)
 
-st.markdown(f'<p style="font-size: 20px;">Image Processing, Machine Learning, Deep Learning, Computer Vision</p>', unsafe_allow_html=True)
+st.markdown(f'<p style="font-size: 20px;">Deep Learning, Computer Vision, Docker</p>', unsafe_allow_html=True)
 
 txt3("Operating Systems","`Linux`")
 txt3("Programming languages","`Python`")
