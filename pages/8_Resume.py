@@ -54,6 +54,7 @@ st.write(
     """
 - ► Image and Video Processing
 - ► Machine Learning, Deep Learning, Computer Vision
+- ► Docker
 - ► Operating Systems: Linux
 - ► Programming languages: Python
 - ► Libraries & Frameworks: Tensorflow, Keras, streamlit, Flask, OpenCV, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Pillow
