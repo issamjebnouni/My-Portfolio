@@ -68,7 +68,7 @@ st.subheader("Education", divider="red")
 
 st.write(
     """
-### Bachelor Degree, [INSAT](https://insat.rnu.tn) (2019-2024)
+### Master of Science, [INSAT](https://insat.rnu.tn) (2019-2024)
 - ##### Major: Computer Science
 - ##### Minor: Image and Video Processing
 - **Relevant Coursework:**  Machine learning, Deep Learning, Image and Video Processing, Big Data, Business Intelligence, Linux.
