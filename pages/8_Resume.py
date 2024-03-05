@@ -8,7 +8,7 @@ st.set_page_config(layout="centered")
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 resume_file = current_dir.parent / "assets" / "Issam_Jebnouni_Resume.pdf"
-profile_pic = current_dir.parent / "assets" / "pfp3.png"
+profile_pic = current_dir.parent / "assets" / "pfp4.png"
 css_file = current_dir.parent / "styles" / "resume.css"
 
 # --- LOAD PDF, PROFILE PIC & CSS ---
@@ -57,8 +57,8 @@ st.write(
 - ► Docker
 - ► Operating Systems: Linux
 - ► Programming languages: Python
-- ► Libraries & Frameworks: Tensorflow, Keras, streamlit, Flask, OpenCV, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Pillow
-- ► Tools: Nvidia TAO, mediapipe, YOLOv8
+- ► Libraries & Frameworks: Detectron2, Tensorflow, Keras, streamlit, Flask, OpenCV, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Pillow
+- ► Tools: Nvidia TAO, Mediapipe, YOLOv8
 """
 )
 
@@ -80,9 +80,22 @@ st.write(
 st.write('\n')
 st.subheader("Work Experience", divider="red")
 
+# --- Experience 2
 st.write(
     """
-**Computer Vision Intern @ [DataDoIt](https://data-doit.com/)**
+**∎ Computer Vision End-of-studies Intern @ [Avidea](https://www.avidea.tn/)**
+
+*Feb 2024 - May 2024*
+
+- ► Currently working on enhancing the startup’s car damage detection and segmentation model.
+- ► Working with this stack of technologies: Pytorch, Detectron2, Label Studio, Docker, Flask.
+""")
+
+
+# --- Experience 1
+st.write(
+    """
+**∎ Computer Vision Summer Intern @ [DataDoIt](https://data-doit.com/)**
 
 *Jul 2023 - Aug 2023*
 
@@ -158,7 +171,7 @@ st.write(
 st.write('\n')
 st.subheader("Extracurricular Activities", divider="red")
 
-
+# --- Activity 2
 st.write(
     """
 **∎ Head of Sponsorship of the IEEE R8 SYP Congress @ [IEEE INSAT STUDENT BRANCH](https://insat.ieee.tn)**
@@ -170,17 +183,6 @@ st.write(
 - ► Raised approximately 30,000$ from local and international sponsors to fund the congress.
     """)
 
-# --- Activity 2
-st.write(
-    """
-**∎ General Secretary @ [IEEE Computer Society Chapter INSAT](https://cs-insat.ieee.tn/)**
-
-*Sep 2021 – May 2022*
-
-- ► Scheduled and coordinated meetings of an 8-people executive board, ensuring efficient operation of the chapter.
-
-- ► Supported the organization of 3 significant events, contributing to their successful execution.
-    """)
 
 
 # --- Activity 1
