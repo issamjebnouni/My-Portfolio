@@ -24,7 +24,7 @@ with st.container():
     with left_column:
         st.header("About Me", divider='red')
         st.subheader("Aspiring Computer Vision Student")
-        st.write("- 👋🏻 Hi, I'm Issam! I'm a Computer vision undergraduate student based in Tunisia. Having prior relevant experiences in computer vision and being in my final year, I am constantly seeking a 6-month end of studies internship to broaden my horizons before embarking on my career upon graduation.")
+        st.write("- 👋🏻 Hi, I'm Issam! I am a Computer Vision engineer based in Tunisia. Currently engaged in my end-of-studies internship, I bring both experience and commitment to make meaningful contributions in the field.")
         st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
