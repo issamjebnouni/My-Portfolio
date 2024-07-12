@@ -28,7 +28,7 @@ with st.container():
         - ► Reduced the necessary time to process images by a factor of 3 and cut workforce requirements by 20%.
 
                     
-         `MMDetection` `Ultralytics` `Label Studio` `Docker` `Flask`
+         `MMDetection` `Ultralytics` `YOLOv8` `Label Studio` `Docker` `Flask`
         """)
 
 with st.container():
@@ -44,5 +44,5 @@ with st.container():
         - ► Explored methods for enhancing model precision with limited real data, settling on training on mixed data (real + synthetic) and validating on real data only.
         - ► Achieved a 0.96 mAP50 on the validation set using the YOLOv8 model with mixed data and generated a TensorRT engine to optimize the model for inference.
                     
-        `Python` `Linux` `Flask` `NVIDIA TAO` `YOLOv8`
+        `Python` `Linux` `Flask` `NVIDIA TAO` `Ultralytics` `YOLOv8`
         """)
