@@ -8,7 +8,7 @@ st.set_page_config(layout="centered")
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 resume_file = current_dir.parent / "assets" / "Issam_Jebnouni_Resume.pdf"
-profile_pic = current_dir.parent / "assets" / "pfp4.png"
+profile_pic = current_dir.parent / "assets" / "pfp2.png"
 css_file = current_dir.parent / "styles" / "resume.css"
 
 # --- LOAD PDF, PROFILE PIC & CSS ---
@@ -57,8 +57,8 @@ st.write(
 - ► Docker
 - ► Operating Systems: Linux
 - ► Programming languages: Python
-- ► Libraries & Frameworks: Detectron2, Tensorflow, Keras, streamlit, Flask, OpenCV, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Pillow
-- ► Tools: Nvidia TAO, Mediapipe, YOLOv8
+- ► Libraries & Frameworks: Ultralytics, MMDetection, Detectron2, Tensorflow, Keras, Streamlit, Flask, OpenCV, Pandas, Numpy, Matplotlib, Seaborn, Scikit-learn, Pillow
+- ► Tools: Nvidia TAO, Mediapipe
 """
 )
 
@@ -87,8 +87,10 @@ st.write(
 
 *Feb 2024 - May 2024*
 
-- ► Currently working on enhancing the startup’s car damage detection and segmentation model.
-- ► Working with this stack of technologies: Pytorch, Detectron2, Label Studio, Docker, Flask.
+- ► Trained a car damage segmentation model to identify 6 damage types in insurance subscription images.
+- ► Created and containerized an API, enabling deployment and integration by the web team on Avidea’s demo page.
+- ► Reduced the necessary time to process images by a factor of 3 and cut workforce requirements by 20%.
+
 """)
 
 
@@ -146,25 +148,13 @@ st.write(
 - ► Trained a BiLSTM model on the extracted features and achieved 99.62% accuracy on test data.
     """)
 
-# --- CERTIFICATIONS ---
+# --- ACHIEVEMENTS ---
 st.write('\n')
-st.subheader("Certifications", divider="red")
+st.subheader("Achievements", divider="red")
 
-# --- Certification 3
 st.write(
     """
-∎ [Machine Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/73QUF3UXV7KU)
-    """)
-
-# --- Certification 2
-st.write(
-    """
-∎ [Data Scientist with Python Career Track](https://www.datacamp.com/statement-of-accomplishment/track/28f0e84562ad94ff677d6d10563bf65231cc510f)
-    """)
-# --- Certification 1
-st.write(
-    """
-∎ [Python Programmer Career Track](https://www.datacamp.com/statement-of-accomplishment/track/29b51b71ac3ecb95396ded748049cd86d583c4b2)
+∎ Achieved second place in a computer vision hackathon where we detected defects on tokens on a conveyor belt in real time.
     """)
 
 # --- EXTRACURRICULAR ACTIVITIES ---

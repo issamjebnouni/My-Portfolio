@@ -17,14 +17,14 @@ with open(css_file) as f:
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
-img = Image.open("assets/pfp4.png")
+img = Image.open("assets/pfp2.png")
 
 with st.container():
     left_column, middle_column, right_column = st.columns((1,0.2,0.6))
     with left_column:
         st.header("About Me", divider='red')
-        st.subheader("Aspiring Computer Vision Student")
-        st.write("- 👋🏻 Hi, I'm Issam! I am a Computer Vision engineer based in Tunisia. Currently engaged in my end-of-studies internship, I bring both experience and commitment to make meaningful contributions in the field.")
+        st.subheader("Aspiring Computer Vision Engineer")
+        st.write("- 👋🏻 Hi, I'm Issam! I am a freshly graduated computer vision engineer. I bring both motivation and commitment to make meaningful contributions in the field.")
         st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,

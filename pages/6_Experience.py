@@ -23,9 +23,12 @@ with st.container():
         st.subheader("Computer Vision End-of-studies Intern @ [Avidea](https://www.avidea.tn/)")
         st.write("*Feb 2024 - May 2024*")
         st.markdown("""
-        - ► Currently working on enhancing the startup’s car damage detection and segmentation model.
+        - ► Trained a car damage segmentation model to identify 6 damage types in insurance subscription images.
+        - ► Created and containerized an API, enabling deployment and integration by the web team on Avidea’s demo page.
+        - ► Reduced the necessary time to process images by a factor of 3 and cut workforce requirements by 20%.
+
                     
-        `Pytorch` `Detectron2` `Label Studio` `Docker` `Flask`
+         `MMDetection` `Ultralytics` `Label Studio` `Docker` `Flask`
         """)
 
 with st.container():
