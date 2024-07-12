@@ -17,7 +17,7 @@ with open(css_file) as f:
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
-img = Image.open("assets/pfp2.png")
+img = Image.open("assets/pfp1.png")
 
 with st.container():
     left_column, middle_column, right_column = st.columns((1,0.2,0.6))

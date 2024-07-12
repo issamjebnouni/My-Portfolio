@@ -8,7 +8,7 @@ st.set_page_config(layout="centered")
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 resume_file = current_dir.parent / "assets" / "Issam_Jebnouni_Resume.pdf"
-profile_pic = current_dir.parent / "assets" / "pfp2.png"
+profile_pic = current_dir.parent / "assets" / "pfp1.png"
 css_file = current_dir.parent / "styles" / "resume.css"
 
 # --- LOAD PDF, PROFILE PIC & CSS ---
