@@ -32,7 +32,7 @@ with st.container():
 
     with right_column:
         st.title("Issam Jebnouni")
-        st.write("Computer Vision Undergraduate student.")
+        st.write("Computer Vision Engineer.")
         st.download_button(
             label=" 📄 Download Resume",
             data=PDFbyte,
