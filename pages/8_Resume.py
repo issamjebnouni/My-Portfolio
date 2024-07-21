@@ -54,6 +54,7 @@ st.write(
     """
 - ► Image and Video Processing
 - ► Machine Learning, Deep Learning, Computer Vision
+- ► Git
 - ► Docker
 - ► Operating Systems: Linux
 - ► Programming languages: Python
